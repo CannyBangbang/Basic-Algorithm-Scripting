@@ -1,6 +1,9 @@
 function reverseString(str) {
-  var revStr = str.split("").reverse().join("");
-  
+  var revStr = str
+    .split("")
+    .reverse()
+    .join("");
+
   return revStr;
 }
 

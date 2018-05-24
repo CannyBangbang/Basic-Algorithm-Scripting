@@ -16,7 +16,7 @@ function destroyer(arr) {
 function destroyer(arr) {
   var arrNew = arr.slice.call(arguments);
   var justTheArr = arrNew.shift();
-  
+
   return justTheArr.filter(function filterArr(a) {
     for (b = 0; b < arrNew.length; b++) {
       if (a !== arrNew[0] && a !== arrNew[1] && a !== arrNew[2]) {
@@ -24,9 +24,6 @@ function destroyer(arr) {
       }
     }
   });
-  
 }
 
-
 destroyer([3, 5, 1, 2, 2], 2, 3, 5);
-

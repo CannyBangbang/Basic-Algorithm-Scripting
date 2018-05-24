@@ -3,13 +3,13 @@ function mutation(arr) {
   var b = arr[1].toLowerCase().split("");
   var x;
   var answer = true;
-  
+
   for (x = 0; x < b.length; x++) {
-      if (a.indexOf(b[x]) === -1) {
-        answer = false;
+    if (a.indexOf(b[x]) === -1) {
+      answer = false;
     }
   }
- return answer; 
+  return answer;
 }
 
 mutation(["zyxwvutsrqponmlkjihgfedcba", "qrstu"]);

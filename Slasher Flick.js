@@ -1,4 +1,4 @@
-unction slasher(arr, howMany) {
+function slasher(arr, howMany) {
   var a;
   for (a = 0; a < howMany; a++) {
     arr.shift(a);

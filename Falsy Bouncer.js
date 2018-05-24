@@ -1,5 +1,5 @@
 function bouncer(arr) {
- var arrNew = arr.filter(check);
+  var arrNew = arr.filter(check);
   return arrNew;
 }
 

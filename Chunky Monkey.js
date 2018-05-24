@@ -3,9 +3,9 @@ function chunkArrayInGroups(arr, size) {
   var arrNew = [];
 
   for (b = 0; b < arr.length; b += size) {
-     arrNew.push(arr.slice(b , b+size));
-  } 
-  
+    arrNew.push(arr.slice(b, b + size));
+  }
+
   return arrNew;
 }
 

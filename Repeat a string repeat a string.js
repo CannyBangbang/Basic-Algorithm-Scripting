@@ -3,11 +3,10 @@ function repeatStringNumTimes(str, num) {
   var a;
   if (num >= 0) {
     for (a = 1; a < num; a++) {
-       strCombo = strCombo.concat(str);
+      strCombo = strCombo.concat(str);
     }
     return strCombo;
-  }
-  else {
+  } else {
     return "";
   }
 }
